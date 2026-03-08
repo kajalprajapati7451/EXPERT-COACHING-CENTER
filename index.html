@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expert Coaching Centre – New Usmanpur, Delhi</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER
+<div id="loader">
+  <div class="ld-box">
+    <span class="ld-icon">🎓</span>
+    <div class="ld-ring"></div>
+    <div class="ld-text">Expert Coaching Centre</div>
+  </div>
+</div> -->
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a class="nav-logo" href="#home">
+    <div class="nav-logo-icon">
+      <img src="IMAGES/logo.png" alt="image" srcset="">
+    </div>
+    <div class="nav-logo-text">Expert Coaching<span>New Usmanpur, Delhi</span></div>
+  </a>
+  <div class="nav-center">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#faculty">Faculty</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#location">Contact</a></li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <a href="#admission" class="nav-admit">✦ Admission</a>
+    <button class="three-dots" onclick="openDrawer()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- LEFT DRAWER OVERLAY -->
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<!-- LEFT DRAWER -->
+<div class="drawer" id="drawer">
+  <div class="drawer-head">
+    <div class="drawer-head-logo"><i class="fas fa-graduation-cap"></i></div>
+    <div class="drawer-head-text">Expert Coaching<span>New Usmanpur, Delhi</span></div>
+    <button class="drawer-close" onclick="closeDrawer()"><i class="fas fa-times"></i></button>
+  </div>
+  <div class="drawer-links">
+    <a href="#home" onclick="closeDrawer()"><i class="fas fa-home"></i> Home</a>
+    <a href="#about" onclick="closeDrawer()"><i class="fas fa-info-circle"></i> About</a>
+    <a href="#courses" onclick="closeDrawer()"><i class="fas fa-book"></i> Courses</a>
+    <a href="#faculty" onclick="closeDrawer()"><i class="fas fa-chalkboard-teacher"></i> Faculty</a>
+    <a href="#results" onclick="closeDrawer()"><i class="fas fa-trophy"></i> Results</a>
+    <a href="#gallery" onclick="closeDrawer()"><i class="fas fa-images"></i> Gallery</a>
+    <a href="#videos" onclick="closeDrawer()"><i class="fab fa-youtube"></i> Videos</a>
+    <a href="#location" onclick="closeDrawer()"><i class="fas fa-map-marker-alt"></i> Contact</a>
+  </div>
+  <a href="#admission" class="drawer-admit-link" onclick="closeDrawer()"><i class="fas fa-pen"></i> Apply for Admission</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-slides" id="heroSlides">
+    <div class="hero-slide active" style="background-image:url('IMAGES/logo.png')"></div>
+  </div>
+  <div class="hero-fi">
+    <i class="fas fa-book-open fi"></i><i class="fas fa-calculator fi"></i>
+    <i class="fas fa-atom fi"></i><i class="fas fa-pencil-ruler fi"></i>
+    <i class="fas fa-medal fi"></i>
+  </div>
+  <div class="hero-content">
+    <div class="hero-pill"><i class="fas fa-star"></i>&nbsp;Delhi's Most Trusted Coaching Since 2007 | Results 2025</div>
+    <h1>Expert <em>Coaching</em> Centre</h1>
+    <p class="hero-sub">Building Strong Foundations for Academic Success</p>
+    <p class="hero-desc">Trusted coaching institute in New Usmanpur, Delhi — quality education from Nursery to Class 12, Commerce, Polytechnic coaching, and competitive exam preparation.</p>
+    <div class="hero-badges">
+      <div class="hbadge"><i class="fas fa-calendar-check"></i>Since 2007</div>
+      <div class="hbadge"><i class="fas fa-users"></i>5000+ Students</div>
+      <div class="hbadge"><i class="fas fa-trophy"></i>95% Success Rate</div>
+    </div>
+    <div class="hero-btns">
+      <a href="#courses" class="btn-hp"><i class="fas fa-book"></i> Explore Courses</a>
+      <a href="#location" class="btn-ho"><i class="fas fa-phone"></i> Contact Us</a>
+    </div>
+  </div>
+  <div class="hero-arrow"><div class="ha"></div></div>
+</section>
+
+
+
+<!-- ABOUT -->
+<section id="about" class="about-sec">
+  <div class="sec-inner about-grid">
+    <div class="about-img-wrap reveal-l">
+      <img src="IMAGES/team 3.jpeg" alt="Expert Coaching Centre">
+      <div class="ay-badge"><span class="num">15+</span><span class="lbl">Years Excellence</span></div>
+    </div>
+    <div class="about-right reveal-r">
+      <span class="sec-tag">About Us</span>
+      <h2 class="sec-title">About Expert Coaching Centre</h2>
+      <p style="color:#6b7a99;font-size:.9rem;line-height:1.76;margin-bottom:6px;">Founded and led by <strong style="color:var(--blue-dark);">Rajeev Jain Sir</strong> — the <em style="color:var(--blue);font-style:normal;">"Wizard of Accounts"</em> — Expert Coaching Centre has been a beacon of academic excellence in New Usmanpur since 2007.</p>
+      <ul class="about-list">
+        <li><i class="fas fa-check-circle"></i>Over <strong>15 years</strong> of dedicated teaching excellence in Delhi</li>
+        <li><i class="fas fa-check-circle"></i>Concept-based, visual learning for deeper understanding</li>
+        <li><i class="fas fa-check-circle"></i>Small batches — <strong>personalized attention</strong> for every student</li>
+        <li><i class="fas fa-check-circle"></i>Experienced faculty for all subjects Nursery to Class 12</li>
+        <li><i class="fas fa-check-circle"></i>Polytechnic & Competitive Exam coaching</li>
+        <li><i class="fas fa-check-circle"></i>Regular tests, doubt sessions & parent feedback</li>
+      </ul>
+      <a href="javascript:void(0)" onclick="openCoursePopup()" class="btn-blue"><i class="fas fa-arrow-right"></i> View Our Courses</a>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section id="courses" class="courses-sec">
+  <div class="sec-inner">
+    <div class="sec-head reveal">
+      <span class="sec-tag">What We Teach</span>
+      <h2 class="sec-title">Our Courses</h2>
+      <p class="sec-sub">Comprehensive programs for every student — from early learners to competitive exam aspirants.</p>
+    </div>
+    <div class="courses-grid">
+      <div class="cc reveal"><div class="cc-icon"><i class="fas fa-child"></i></div><h3>Nursery – Class 5</h3><p>Strong foundational learning in Maths, English, Hindi, EVS with interactive and fun methods.</p><span class="cc-tag">Primary Foundation</span></div>
+      <div class="cc reveal"><div class="cc-icon"><i class="fas fa-book"></i></div><h3>Class 6 – Class 8</h3><p>Focused concept clarity in all core subjects with regular assessments and doubt sessions.</p><span class="cc-tag">Middle School</span></div>
+      <div class="cc reveal"><div class="cc-icon"><i class="fas fa-graduation-cap"></i></div><h3>Class 9 – Class 10</h3><p>CBSE Board exam preparation with practice papers, NCERT solutions and expert guidance.</p><span class="cc-tag">Board Foundation</span></div>
+      <div class="cc reveal"><div class="cc-icon"><i class="fas fa-chart-line"></i></div><h3>Class 11 – 12 Commerce</h3><p>Accountancy, Business Studies, Economics, English — mastery-based commerce coaching.</p><span class="cc-tag">Commerce Expert</span></div>
+      <div class="cc reveal"><div class="cc-icon"><i class="fas fa-tools"></i></div><h3>Polytechnic Coaching</h3><p>Polytechnic entrance exam prep with technical subject coverage and full mock test series.</p><span class="cc-tag">Technical Stream</span></div>
+      <div class="cc reveal"><div class="cc-icon"><i class="fas fa-award"></i></div><h3>Competitive Exams</h3><p>SSC, banking, government job exam preparation with strategic and pattern-based coaching.</p><span class="cc-tag">Career Launch</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FACULTY -->
+<section id="faculty" class="faculty-sec">
+  <div class="sec-inner">
+    <div class="sec-head reveal">
+      <span class="sec-tag">Our Educators</span>
+      <h2 class="sec-title">Meet Our Expert Faculty</h2>
+      <p class="sec-sub">Passionate, experienced teachers dedicated to every student's success.</p>
+    </div>
+    <div class="fac-tabs reveal">
+      <button class="tab-btn active" onclick="filterFac('all',this)">All Teachers</button>
+      <button class="tab-btn" onclick="filterFac('commerce',this)">Commerce</button>
+      <button class="tab-btn" onclick="filterFac('science',this)">Science & Maths</button>
+      <button class="tab-btn" onclick="filterFac('polytechnic',this)">Polytechnic</button>
+      <button class="tab-btn" onclick="filterFac('competitive',this)">Competitive</button>
+      <button class="tab-btn" onclick="filterFac('language',this)">Languages</button>
+    </div>
+    <div class="fac-grid" id="facGrid">
+
+      <div class="fac-card founder-card reveal" data-cat="commerce" onclick="openM('rajeev')">
+        <span class="fcrown">⭐ Founder & CEO</span>
+        <div class="fac-img-wrap"><img class="fac-img" src="IMAGES/rajiv.jpeg" alt="Rajeev Jain Sir"></div>
+        <div class="fac-body"><h3>Rajeev Jain Sir</h3><div class="fac-role">Founder & CEO – Wizard of Accounts</div><div class="fac-sub">Accountancy, Business Studies</div><div class="fac-exp"><i class="fas fa-star"></i>15+ Years</div></div>
+      </div>
+
+      <div class="fac-card reveal" data-cat="commerce" onclick="openM('chetna')">
+        <div class="fac-img-wrap"><img class="fac-img" src="IMAGES/chetna.jpeg" alt="Chetna Didi"></div>
+        <div class="fac-body"><h3>Chetna Didi</h3><div class="fac-role">Commerce Faculty</div><div class="fac-sub">Business Studies</div><div class="fac-exp"><i class="fas fa-star"></i>8+ Years</div></div>
+      </div>
+
+      <div class="fac-card reveal" data-cat="commerce" onclick="openM('pratham')">
+        <div class="fac-img-wrap"><img class="fac-img" src="IMAGES/pratham sir .jpeg" alt="Pratham Bhaiya"></div>
+        <div class="fac-body"><h3>Pratham Bhaiya</h3><div class="fac-role">Economics Faculty</div><div class="fac-sub">Economics</div><div class="fac-exp"><i class="fas fa-star"></i>7+ Years</div></div>
+      </div>
+
+      <div class="fac-card reveal" data-cat="science polytechnic" onclick="openM('rajan')">
+        <div class="fac-img-wrap"><img class="fac-img" src="IMAGES/rajan sir.jpeg" alt="Rajan Sir"></div>
+        <div class="fac-body"><h3>Rajan Sir</h3><div class="fac-role">Science, Maths & Polytechnic</div><div class="fac-sub">Science, Maths, Polytechnic</div><div class="fac-exp"><i class="fas fa-star"></i>12+ Years</div></div>
+      </div>
+
+      <div class="fac-card reveal" data-cat="language" onclick="openM('rakesh')">
+        <div class="fac-img-wrap"><img class="fac-img" src="IMAGES/rakesh sir.jpeg" alt="Rakesh Sir"></div>
+        <div class="fac-body"><h3>Rakesh Sir</h3><div class="fac-role">English Faculty</div><div class="fac-sub">English – All Classes</div><div class="fac-exp"><i class="fas fa-star"></i>9+ Years</div></div>
+      </div>
+
+      <div class="fac-card reveal" data-cat="language" onclick="openM('pinki')">
+        <div class="fac-img-wrap"><img class="fac-img" src="IMAGES/pinki.jpeg" alt="Pinki Jain Ma'am"></div>
+        <div class="fac-body"><h3>Pinki Jain Ma'am</h3><div class="fac-role">Hindi Faculty</div><div class="fac-sub">Hindi – All Classes</div><div class="fac-exp"><i class="fas fa-star"></i>10+ Years</div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results" class="results-sec">
+  <div class="sec-inner">
+    <div class="sec-head reveal">
+      <span class="sec-tag">Achievements</span>
+      <h2 class="sec-title">Results & Achievements</h2>
+      <p class="sec-sub">Our students consistently shine in 2025 — a reflection of our teaching quality.</p>
+    </div>
+    <div class="ctrs-row">
+      <div class="ctr-box reveal"><span class="ctr-num" data-target="5000" data-suffix="+">0</span><span class="ctr-lbl">Students Taught</span></div>
+      <div class="ctr-box reveal"><span class="ctr-num" data-target="15" data-suffix="+">0</span><span class="ctr-lbl">Years Experience</span></div>
+      <div class="ctr-box reveal"><span class="ctr-num" data-target="95" data-suffix="%">0</span><span class="ctr-lbl">Success Rate</span></div>
+      <div class="ctr-box reveal"><span class="ctr-num" data-target="6" data-suffix="">0</span><span class="ctr-lbl">Course Programs</span></div>
+    </div>
+    <div class="res-cards reveal">
+      <div class="res-card"><div class="rn">Harshit Sharma</div><div class="rc">Class 12 Commerce 2025</div><div class="rm">95%</div><div class="rs">★★★★★</div></div>
+      <div class="res-card"><div class="rn">Dilfiza Khan</div><div class="rc">Class 10 Board 2025</div><div class="rm">95%</div><div class="rs">★★★★★</div></div>
+      <div class="res-card"><div class="rn">Kajal Gupta</div><div class="rc">Class 12 Commerce 2025</div><div class="rm">95%</div><div class="rs">★★★★★</div></div>
+      <div class="res-card"><div class="rn">Rohit Verma</div><div class="rc">Polytechnic Entrance 2025</div><div class="rm">92%</div><div class="rs">★★★★★</div></div>
+      <div class="res-card"><div class="rn">Sneha Mishra</div><div class="rc">Class 10 Board 2025</div><div class="rm">90%</div><div class="rs">★★★★★</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY
+<section id="gallery" class="gallery-sec">
+  <div class="sec-inner">
+    <div class="sec-head reveal">
+      <span class="sec-tag">Our Campus</span>
+      <h2 class="sec-title">Gallery</h2>
+      <p class="sec-sub">A glimpse into learning, growth and achievements at Expert Coaching Centre.</p>
+    </div>
+    <div class="gal-grid">
+      <div class="gal-item tall reveal" style="min-height:420px;"><img src="IMAGES/team 1.jpeg" alt="Classroom" style="height:100%;"><div class="gal-ov"><span>📚 Classroom Learning</span><p>Students engaged in concept-based sessions</p></div></div>
+      <div class="gal-item reveal" style="min-height:200px;"><img src="IMAGES/team 2.jpeg" alt="Students" style="height:200px;"><div class="gal-ov"><span>🎓 Students in Action</span><p>Group study & peer learning</p></div></div>
+      <div class="gal-item reveal" style="min-height:200px;"><img src="IMAGES/1.png" alt="Teaching" style="height:200px;"><div class="gal-ov"><span>👨‍🏫 Expert Teaching</span><p>One-on-one guidance</p></div></div>
+      <div class="gal-item reveal" style="min-height:200px;"><img src="IMAGES/team 3.jpeg" alt="Bright" style="height:200px;"><div class="gal-ov"><span>🌟 Bright Futures</span><p>Award winning achievers</p></div></div>
+    </div>
+  </div>
+</section> -->
+
+<!-- VIDEOS -->
+<!-- VIDEOS -->
+<section id="videos" class="videos-sec">
+  <div class="sec-inner">
+    
+    <div class="sec-head reveal">
+      <span class="sec-tag">Watch & Learn</span>
+      <h2 class="sec-title">Expert Coaching on YouTube</h2>
+      <p class="sec-sub">
+        Watch our teachers explain concepts clearly — from Accountancy to Competitive Exams.
+      </p>
+    </div>
+
+    <div class="vid-grid">
+
+      <!-- Video 1 -->
+      <div class="vid-card reveal">
+        <iframe 
+          src="https://www.youtube.com/embed/p1nwrw2AUYw"
+          title="Founder Message"
+          frameborder="0"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <div class="vid-label">🎙️ Message from Rajeev Jain Sir – Founder</div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="vid-card reveal">
+        <iframe 
+          src="https://www.youtube.com/embed/p1nwrw2AUYw"
+          title="Accountancy Class"
+          frameborder="0"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <div class="vid-label">📊 Accountancy Made Easy – Commerce Class</div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="vid-card reveal">
+        <iframe 
+          src="https://www.youtube.com/embed/p1nwrw2AUYw"
+          title="Exam Tips"
+          frameborder="0"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+        <div class="vid-label">🏆 Board Exam Tips & Success Stories</div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center;margin-top:30px;" class="reveal">
+      <a href="https://www.youtube.com/" target="_blank" class="btn-blue">
+        <i class="fab fa-youtube"></i>&nbsp;Visit Our YouTube Channel
+      </a>
+    </div>
+
+  </div>
+</section> 
+
+<!-- ADMISSION FORM -->
+<section id="admission" class="form-sec">
+  <div class="sec-inner">
+    <div class="sec-head reveal">
+      <span class="sec-tag">Join Us</span>
+      <h2 class="sec-title">Apply for Admission</h2>
+      <p class="sec-sub">Take the first step towards excellence. We'll contact you within 24 hours.</p>
+    </div>
+    <div class="form-wrap reveal">
+      <div class="form-hed">Admission Enquiry Form</div>
+      <p class="form-sub-t">Limited seats per batch. Fill in your details and we'll be in touch soon!</p>
+      <div id="admForm">
+        <div class="f-row">
+          <div class="fg"><label>Student Name *</label><input type="text" placeholder="Full name of student" required></div>
+          <div class="fg"><label>Class *</label>
+            <select required><option value="">Select Class / Course</option>
+              <option>Nursery – Class 5</option><option>Class 6 – 8</option>
+              <option>Class 9 – 10</option><option>Class 11 – 12 (Commerce)</option>
+              <option>Polytechnic Coaching</option><option>Competitive Exams</option>
+            </select>
+          </div>
+        </div>
+        <div class="f-row">
+          <div class="fg"><label>Parent WhatsApp Number *</label><input type="tel" placeholder="+91 XXXXX XXXXX" required></div>
+          <div class="fg"><label>Subject of Interest</label><input type="text" placeholder="e.g. Accountancy, Hindi, English"></div>
+        </div>
+        <div class="fg fg-full" style="margin-bottom:14px;"><label>Message (Optional)</label><textarea placeholder="Any queries or special requirements..."></textarea></div>
+        <button class="sub-btn" onclick="subForm(event)"><i class="fas fa-paper-plane"></i>&nbsp; Apply for Admission</button>
+      </div>
+      <div class="form-ok" id="formOk">
+        <i class="fas fa-check-circle"></i>
+        <strong style="color:var(--blue-dark);font-size:1.05rem;">Application Submitted!</strong><br>
+        <span style="font-size:.84rem;color:#6b7a99;">We'll contact you within 24 hours on WhatsApp. Welcome to Expert Coaching Centre! 🎓</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION & CONTACT -->
+<section id="location" class="loc-sec">
+  <div class="sec-inner">
+    <div class="sec-head reveal">
+      <span class="sec-tag">Find Us</span>
+      <h2 class="sec-title">Location & Contact</h2>
+      <p class="sec-sub">Visit us at Gali No. 10, Near Shiv Mandir, New Usmanpur, Delhi.</p>
+    </div>
+    <div class="loc-grid">
+      <div class="cc-cards reveal-l">
+        <div class="cc-item">
+          <div class="cc-ico"><i class="fas fa-map-marker-alt"></i></div>
+          <div><h4>Our Address</h4><p>Expert Coaching Centre<br>Gali No. 10, Near Shiv Mandir<br>New Usmanpur, Delhi – 110053</p></div>
+        </div>
+        <div class="cc-item">
+          <div class="cc-ico"><i class="fas fa-phone"></i></div>
+          <div><h4>Call Us</h4><a href="tel:+919999999999">+91 99999 99999</a><br><a href="tel:+918888888888">+91 88888 88888</a></div>
+        </div>
+        <div class="cc-item">
+          <div class="cc-ico"><i class="fas fa-clock"></i></div>
+          <div><h4>Working Hours</h4><p>Mon – Sat: 7:00 AM – 8:00 PM<br>Sunday: 9:00 AM – 2:00 PM</p></div>
+        </div>
+        <div class="cc-item">
+          <div class="cc-ico"><i class="fas fa-envelope"></i></div>
+          <div><h4>Email</h4><a href="/cdn-cgi/l/email-protection#95f0ede5f0e7e1f6faf4f6fdfcfbf2f1f0f9fdfcd5f2f8f4fcf9bbf6faf8"><span class="__cf_email__" data-cfemail="284d50584d5a5c4b47494b4041464f4c4d444041684f45494144064b4745">[email&#160;protected]</span></a></div>
+        </div>
+        <a href="https://wa.me/919999999999?text=Hello%2C%20I%20want%20to%20enquire%20about%20Expert%20Coaching%20Centre" class="wa-btn" target="_blank">
+          <i class="fab fa-whatsapp" style="font-size:1.15rem;"></i> Chat on WhatsApp
+        </a>
+      </div>
+      <div class="map-wrap reveal-r">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.5!2d77.2740!3d28.6880!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd2a8e00b5b9%3A0x0!2zTmV3IFVzbWFucHVyLCBEZWxoaQ!5e0!3m2!1sen!2sin!4v1650000000" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER — compact -->
+<footer>
+  <div class="ftr-inner">
+    <div class="ftr-top">
+      <div class="ftr-logo">
+        <div class="ftr-logo-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="ftr-logo-text">Expert Coaching Centre<span>New Usmanpur, Delhi – 110053</span></div>
+      </div>
+      <div class="ftr-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a><a href="#results">Results</a>
+        <a href="#gallery">Gallery</a><a href="#admission">Admission</a><a href="#location">Contact</a>
+      </div>
+      <div class="ftr-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@ExpertCoachingCentre" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="ftr-bottom">
+      <p>© 2025 Expert Coaching Centre, Gali No. 10, Near Shiv Mandir, New Usmanpur, Delhi – 110053. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<a href="https://wa.me/919999999999?text=Hello%2C%20I%20want%20to%20enquire%20about%20Expert%20Coaching%20Centre" class="flt-wa" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<button class="stt-btn" id="sttBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+<!-- MODAL -->
+<div class="modal-bg" id="modalBg" onclick="closeMO(event)">
+  <div class="modal-box">
+    <button class="m-x" onclick="closeM()"><i class="fas fa-times"></i></button>
+    <img id="mPhoto" class="m-photo" src="" alt="">
+    <div id="mName" class="m-name"></div>
+    <div id="mRole" class="m-role"></div>
+    <div id="mDetail" class="m-detail"></div>
+    <div id="mBadges" class="m-badges"></div>
+  </div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+
+
+<!-- COURSE ENQUIRY POPUP -->
+<div class="cpop-bg" id="coursePopup" onclick="closeCoursePopupOutside(event)">
+  <div class="cpop-box">
+    <div class="cpop-header">
+      <h2>📚 Course Enquiry</h2>
+      <p>Select a course and share your details — we'll call you back within 24 hours!</p>
+      <button class="cpop-close" onclick="closeCoursePopup()"><i class="fas fa-times"></i></button>
+    </div>
+
+    <div id="cpopMain">
+      <!-- Course Selection -->
+      <div class="cpop-courses" id="cpopCourses">
+        <button class="cpop-course-btn" onclick="selectCourse(this,'Nursery – Class 5')">
+          <i class="fas fa-child"></i><span>Nursery – Class 5</span>
+        </button>
+        <button class="cpop-course-btn" onclick="selectCourse(this,'Class 6 – Class 8')">
+          <i class="fas fa-book"></i><span>Class 6 – Class 8</span>
+        </button>
+        <button class="cpop-course-btn" onclick="selectCourse(this,'Class 9 – Class 10')">
+          <i class="fas fa-graduation-cap"></i><span>Class 9 – Class 10</span>
+        </button>
+        <button class="cpop-course-btn" onclick="selectCourse(this,'Class 11–12 Commerce')">
+          <i class="fas fa-chart-line"></i><span>Class 11–12 Commerce</span>
+        </button>
+        <button class="cpop-course-btn" onclick="selectCourse(this,'Polytechnic Coaching')">
+          <i class="fas fa-tools"></i><span>Polytechnic Coaching</span>
+        </button>
+        <button class="cpop-course-btn" onclick="selectCourse(this,'Competitive Exams')">
+          <i class="fas fa-award"></i><span>Competitive Exams</span>
+        </button>
+      </div>
+
+      <!-- Form Fields -->
+      <div class="cpop-form">
+        <div id="cpopSelectedLabel" class="cpop-selected-label" style="display:none;"></div>
+        <div class="cpop-row">
+          <div class="cpop-fg">
+            <label>Student Name *</label>
+            <input type="text" id="cpopName" placeholder="Enter student name">
+          </div>
+          <div class="cpop-fg">
+            <label>WhatsApp Number *</label>
+            <input type="tel" id="cpopPhone" placeholder="+91 XXXXX XXXXX">
+          </div>
+        </div>
+        <div class="cpop-row">
+          <div class="cpop-fg">
+            <label>Class / Standard</label>
+            <input type="text" id="cpopClass" placeholder="e.g. Class 10, Class 12">
+          </div>
+          <div class="cpop-fg">
+            <label>Preferred Batch Time</label>
+            <input type="text" id="cpopBatch" placeholder="e.g. Morning / Evening">
+          </div>
+        </div>
+        <button class="cpop-submit" onclick="submitCourseForm()">
+          <i class="fas fa-paper-plane"></i>&nbsp; Send Enquiry
+        </button>
+      </div>
+    </div>
+
+    <!-- Success State -->
+    <div class="cpop-success" id="cpopSuccess">
+      <i class="fas fa-check-circle"></i>
+      <h3>Enquiry Submitted!</h3>
+      <p>Thank you! Our team will contact you on WhatsApp within 24 hours.<br>Welcome to <strong>Expert Coaching Centre</strong>! 🎓</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
